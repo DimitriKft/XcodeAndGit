@@ -10,6 +10,8 @@ import SwiftUI
 struct DimView: View {
     var body: some View {
         Text("Ecran de Dim")
+            .foregroundColor(.secondary)
+            .fontWeight(.bold)
     }
 }
 
